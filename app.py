@@ -7,7 +7,8 @@ from pathlib import Path
 
 
 # Load Data
-file_path = r"C:\Users\janki\OneDrive\Desktop\vgsales_dashboard_app\vgsales_dashboard.xlsm"
+file_path = "vgsales_dashboard.xlsm"  # Just the filename, no path
+# file_path = r"C:\Users\janki\OneDrive\Desktop\vgsales_dashboard_app\vgsales_dashboard.xlsm"
 df = pd.read_excel(file_path, engine="openpyxl")
 
 
